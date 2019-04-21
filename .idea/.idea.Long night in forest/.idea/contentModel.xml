@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Serveladik\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Long night in forest.156179744.00" t="ExcludeRecursive" />
+    <e p="G:\UnityProjects\Long night in forest" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="AudioS.cs" t="Include" />
+        <e p="AudioVolume.cs" t="Include" />
+        <e p="AudioVolume1.cs" t="Include" />
+        <e p="BackButton.cs" t="Include" />
+        <e p="BackMainMenuButton.cs" t="Include" />
+        <e p="CameraControl.cs" t="Include" />
+        <e p="EatZombieScript.cs" t="Include" />
+        <e p="EscapeFromMenu2.cs" t="Include" />
+        <e p="ExitFromGame.cs" t="Include" />
+        <e p="ExitToMenu.cs" t="Include" />
+        <e p="ExitTrigger.cs" t="Include" />
+        <e p="Game" t="Include">
+          <e p="CharacterControllerScript.cs" t="Include" />
+          <e p="EnemyGameOver.cs" t="Include" />
+          <e p="EnemyMoveTowards.cs" t="Include" />
+          <e p="FootStepsOnMaterials.cs" t="Include" />
+          <e p="FPSController.cs" t="Include" />
+          <e p="GameOverScript.cs" t="Include" />
+          <e p="Grasswalking.cs" t="Include" />
+          <e p="HandyHands" t="Include">
+            <e p="readme.txt" t="Include" />
+            <e p="scripts" t="Include">
+              <e p="showcasecam.cs" t="Include" />
+              <e p="VisualizeJoint.cs" t="Include" />
+            </e>
+            <e p="shaders" t="Include">
+              <e p="handyskin.shader" t="Include" />
+            </e>
+          </e>
+          <e p="LookAt.cs" t="Include" />
+          <e p="Pause" t="Include">
+            <e p="PauseScript.cs" t="Include" />
+          </e>
+          <e p="Rain&amp;Snow_StaticNova" t="Include">
+            <e p="readme.txt" t="Include" />
+            <e p="scripts" t="Include">
+              <e p="MouseLook.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ScrAnim" t="Include">
+            <e p="CameraControlScript.cs" t="Include" />
+          </e>
+          <e p="VictimSlender.cs" t="Include" />
+        </e>
+        <e p="GameOver.cs" t="Include" />
+        <e p="GameOverSound.cs" t="Include" />
+        <e p="MenuScene" t="Include">
+          <e p="NewGameLoad.cs" t="Include" />
+        </e>
+        <e p="ObjectCounter.cs" t="Include" />
+        <e p="OnTriggerEnterSounds.cs" t="Include" />
+        <e p="Params.cs" t="Include" />
+        <e p="RoarZombieScript.cs" t="Include" />
+        <e p="SensSettings.cs" t="Include" />
+        <e p="SensSettingsGame.cs" t="Include" />
+        <e p="SettingsMainMenu1.cs" t="Include" />
+        <e p="SettingsMenu.cs" t="Include" />
+        <e p="Standard Assets" t="Include">
+          <e p="Environment" t="Include">
+            <e p="Water" t="Include">
+              <e p="Water" t="Include">
+                <e p="scripts" t="Include">
+                  <e p="Water.cs" t="Include" />
+                </e>
+                <e p="shaders" t="Include">
+                  <e p="FXWaterPro.shader" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="VictoryScript.cs" t="Include" />
+        <e p="VolumeText.cs" t="Include" />
+        <e p="VSCode" t="Include">
+          <e p="Plugins" t="Include">
+            <e p="Editor" t="Include">
+              <e p="VSCode.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="zombieSounds.cs" t="Include" />
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="Long night in forest.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
