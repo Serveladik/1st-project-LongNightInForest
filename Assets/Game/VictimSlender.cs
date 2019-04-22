@@ -7,7 +7,7 @@ public class VictimSlender : MonoBehaviour {
 	public GameObject target; // Слендер
 	//public GameObject PlayerCamera; // Для наложения эффекта на камеру
 
-	public GameObject gg;
+	
 
 	public AudioSource zombieRoar;
 	public AudioClip[] zombieSounds;
@@ -41,17 +41,6 @@ public class VictimSlender : MonoBehaviour {
 		}
 	}
 	
-	/*void OnGUI (){
-		if(window){
-		if (GUI.Button ( new Rect(Screen.width/2 - 90,Screen.height/2 - 40,180,30), "New game")) {
-		//	PlayerCamera.GetComponent<SepiaToneEffect>().enabled = false;
-			Time.timeScale = 1; 
-			window = false;
-			MouseLook ml = (MouseLook) gg.GetComponent<MouseLook>();
-			ml.enabled = enabled;
-			Application.LoadLevel (0);
-			}
-		}
-		}*/
+	
 
 }
