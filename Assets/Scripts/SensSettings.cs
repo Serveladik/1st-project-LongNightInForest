@@ -11,17 +11,24 @@ public class SensSettings : MonoBehaviour {
 	
 	void Start () 
 	{
-		//Setting value in menu to slider and text value of slider in menu scene
-		SensSlider.value = sensitivity2;
-		SensValueText.text = SensSlider.value.ToString("#.##");
+		if(PlayerPrefs.HasKey ("SensValue")==false)
+		{
+			SensSlider.value = 0.4f;
+			SensValueText.text = SensSlider.value.ToString("#.##");
+		}
+		else
+		{
+			SensSlider.value =  PlayerPrefs.GetFloat ("SensValue");
+		}
+		
 	}
 	
 	
 	void Update () 
 	{
 		//Changing sens values with slider and convert value text to string with  better format (1,00) in menu scene
-		sensitivity2 = SensSlider.value;
-		PlayerPrefs.SetFloat ("SensValue",sensitivity2);
+		//sensitivity2 = SensSlider.value;
+		PlayerPrefs.SetFloat ("SensValue",SensSlider.value);
 		SensValueText.text = SensSlider.value.ToString("#.##");
 	}
 }

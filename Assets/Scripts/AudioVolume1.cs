@@ -11,10 +11,17 @@ public class AudioVolume1 : MonoBehaviour {
 	// Use this for initialization
 	void Awake()
 	{
+		if(PlayerPrefs.HasKey ("Volume")==false)
+		{
+			sounds.volume = 0.7f;
+			volumeSlider.value = 0.7f;
+		}
 		//Setting the sounds values to one value
-		sounds.volume = 0.7f;
-		//Setting the slider value to sounds values to control with it in future
-		volumeSlider.value = 0.7f;
+		else
+		{
+			sounds.volume =  PlayerPrefs.GetFloat ("Volume");
+			volumeSlider.value =  PlayerPrefs.GetFloat ("Volume");
+		}
 		
 	}
 	
