@@ -19,7 +19,8 @@ public float Volume = 0.7f;
 
 	float moveFB;
 	float moveLR;
-
+	public Camera camera;
+	public Camera camera2;
 	float rotX;
 	float rotY;
 	public float vertVelocity;
@@ -61,10 +62,23 @@ public float Volume = 0.7f;
 
 if(Input.GetKey(KeyCode.LeftShift))
 {
+	if(camera.fieldOfView<80)
+	{
+		camera.fieldOfView+=0.7f;
+		camera2.fieldOfView+=0.7f;
+	}
+	
 	speed=RunSpeed;
 }
-else{
+else
+{
 	speed=26f;
+if(camera.fieldOfView>70)
+	{
+		camera.fieldOfView-=0.7f;
+		camera2.fieldOfView-=0.7f;
+	}
+	
 }
 
 		if (player.isGrounded == true)
