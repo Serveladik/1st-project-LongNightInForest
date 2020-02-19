@@ -10590,7 +10590,7 @@ Camera:
     height: 1
   near clip plane: 0.03
   far clip plane: 1000
-  field of view: 60
+  field of view: 70
   orthographic: 0
   orthographic size: 5
   m_Depth: 1
@@ -17243,6 +17243,8 @@ MonoBehaviour:
   RunSpeed: 40
   player: {fileID: 1187073597}
   Volume: 0
+  camera: {fileID: 2095648503}
+  camera2: {fileID: 554487212}
   vertVelocity: 0
   jump: 30
 --- !u!143 &1187073597
@@ -27237,7 +27239,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 600
-  field of view: 60
+  field of view: 70
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
